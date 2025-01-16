@@ -1,0 +1,19 @@
+###
+POST http://localhost:3000/routes/users/signup HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "testname",
+    "role":"testrole",
+    "email": "testemail@gmail.com",
+    "password": "testpassword",
+    "isAdmin":"false"
+}
+
+###
+DELETE http://localhost:3000/routes/users/del HTTP/1.1
+Content-Type: application/json
+
+{
+    "fileName":"fileName"
+}
